@@ -1,0 +1,53 @@
+Arguments: 
+  E:\NODE JS\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-navigation/native
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;"C:\Program Files\Java\jdk1.7.0_45\bin;";C:\Program Files\Java\jdk1.8.0_231\bin;D:\Git\cmd;E:\NODE JS\nodejs\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\npm;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\lenovo\Desktop\CODEBASE_REACT_COURSE\react-native\FirebaseWithReact\node_modules\@babel\plugin-external-helpers\lib'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-firebase/app": "^11.0.0",
+      "@react-navigation/native": "^5.9.3",
+      "@react-navigation/stack": "^5.14.3",
+      "expo": "~40.0.0",
+      "expo-status-bar": "~1.0.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-gesture-handler": "^1.10.3",
+      "react-native-keyboard-aware-scroll-view": "^0.9.3",
+      "react-native-web": "~0.13.12",
+      "react-navigation-stack": "^2.10.4"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

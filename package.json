@@ -8,12 +8,31 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-firebase/app": "^11.0.0",
+    "@react-native-firebase/auth": "^11.0.0",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
+    "base-64": "^1.0.0",
     "expo": "~40.0.0",
     "expo-status-bar": "~1.0.3",
+    "firebase": "^8.3.0",
+    "hammerjs": "^2.0.8",
+    "js-base64": "^3.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-gesture-handler": "0.0.5",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-exception-handler": "^2.10.9",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-paper": "^4.7.2",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.18.1",
+    "react-native-web": "~0.13.12",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0"
