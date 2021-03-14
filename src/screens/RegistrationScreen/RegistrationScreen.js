@@ -20,6 +20,7 @@ export default function RegistrationScreen({navigation}) {
   const onRegisterPress = () => {
     //process of registration
     navigation.navigate('LoginScreen');
+
     if (password !== confirmPassword) {
       alert('passwords dont match, try again!');
       return;
@@ -115,12 +116,12 @@ export default function RegistrationScreen({navigation}) {
         <TouchableOpacity
           style={styles.button}
           onPress={signInWithGoogle} >
-          <Text style={styles.buttonTitle}>SignUp with Google</Text>
+          <Text style={styles.buttonTitle}>SignIn with Google</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.button}
           onPress={signInWithFacebook} >
-          <Text style={styles.buttonTitle}>SignUp with Facebook</Text>
+          <Text style={styles.buttonTitle}>SignIn with Facebook</Text>
         </TouchableOpacity>
         <View style={styles.footerView}>
           <Text style={styles.footerText}>
